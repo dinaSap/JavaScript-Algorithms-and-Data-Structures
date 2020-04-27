@@ -10,7 +10,6 @@ function sumPrimes(num) {
     if (isPrime(i)){
     arr.push(i);}
 }
-
   arr = arr.reduce((a, b) => a+b)
   
 return arr;
